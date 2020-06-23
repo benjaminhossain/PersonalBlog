@@ -1,0 +1,21 @@
+body{
+  margin:0;
+}
+
+#banner_img img{
+  width:100%;
+  height: auto;
+}
+
+.ps_txt{
+  padding-left:10px;
+  font-family: 'Manrope', sans-serif;
+}
+
+.vp{
+  font-family: 'Manrope', sans-serif;
+  display:flex;
+  justify-content:flex-end;
+  margin-right:10px;
+}
+

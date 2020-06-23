@@ -1,0 +1,57 @@
+@import "media.css";
+@import "inca_random.css";
+@import "icon.css";
+@import "circle.css";
+
+.container{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 100px auto auto 50px;
+  grid-template-areas:
+    "nav"
+    "gal"
+    "main"
+    "ft";
+}
+
+.navbar{
+  grid-area:nav;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  font-family: 'Cinzel Decorative', cursive;
+  background:#fafafa;
+  box-shadow: 1px 1px 10px grey;
+  z-index:2;
+}
+
+.gallery{
+  grid-area:gal;
+  grid-gap:2px;
+  background:#f5f5f5;
+  padding:20px 10px 20px 10px;
+  z-index:1;
+}
+.mid{
+  grid-area:main;
+  font-family: 'Manrope', sans-serif;
+  margin:10px;
+
+}
+
+.footer{
+  grid-area:ft;
+  background:#2e2e2e;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+article h1{
+  font-size: 30px;
+}
+
+.about{
+  box-shadow: 1px 1px 10px grey;
+  padding:25px;
+}

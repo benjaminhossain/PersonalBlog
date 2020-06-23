@@ -1,0 +1,35 @@
+
+#poststr{
+  margin-left:40px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+}
+
+#articles{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+#post1{
+  height:250px;
+  width: 300px;
+  box-shadow: 3px 3px 10px grey;
+}
+#post2{
+  height:250px;
+  width: 300px;
+  box-shadow: 3px 3px 10px grey;
+}
+#post1_img {
+  height:150px;
+  width:100%;
+  background-image:url("https://www.sciencemag.org/sites/default/files/styles/article_main_image_-_1280w__no_aspect_/public/llama_16x9.jpg?itok=u5TE0L7L");
+  background-size:100% 100%;
+}
+
+#post2_img {
+  height:150px;
+  width:100%;
+  background-image:url("https://www.villapalmarcancun.com/blog/wp-content/uploads/2017/05/getting-to-playa-delfines-in-cancun.jpg");
+  background-size:100% 100%;
+}
